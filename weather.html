@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , shrink-to-fit=no">
+    <title> Weather </title>
+    <link rel="stylesheet" href="stylesheet.css/weather.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css/weather-icons-master/_builder/csv/bak.csv">
+</head>
+
+<body>
+    <div id="hero">
+        <div id="showPage"></div>
+        
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+        <i class="fa fa-sun-o"></i><strong >Local</strong> Weather
+        <input type="search" placeholder="Search....." id="myInput">
+        </a>
+        </nav>
+        
+        <div class="conatiner">
+            <div class="col-8 weather mx-auto">
+                <div class="weather-head">
+                    <div id="myDiv" class="text-center">
+                        <h2 class="text-center" id="main">welcome to weather app.... </h2>
+                        <div id="frontIcons">
+                            <i class="wi wi-day-sunny" id="icon1"></i>
+                            <i class="wi wi-night-showers" id="icon1"></i>
+                            <i class="wi wi-cloud" id="icon1"></i>
+                            <i class="wi wi-snow" id="icon1"></i>
+                        </div>
+                    </div>
+                    <h1 id="location" class="text-center"></h1>
+                </div>
+                <div id="display" class="text-right"></div>
+                <div id="temprature"></div>
+                <div class="container">
+                    <table class="table text-center" id="timingTable">
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script src="weather.js"></script>
+
+</html>
